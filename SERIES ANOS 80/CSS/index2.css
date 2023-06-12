@@ -1,0 +1,84 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-size: larger;
+    text-align: justify;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+
+  nav {
+    background-color: #0a0909;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    background-color: rgb(141, 139, 139);
+    transition: 0.3s;
+  }
+
+  h1{
+    color: #000000;
+  }
+
+  p {
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .series {
+    margin-bottom: 30px;
+  }
+
+  .series h2 {
+    color: #000000;
+  }
+
+  .series p {
+    color: #555;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    border: 5px solid #ccc;
+    border-radius: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .botao {
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 16px;
+          font-weight: bold;
+          text-align: center;
+          text-decoration: none;
+          background-color: #f0a401;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          transition: background-color 0.3s ease;
+        }
+    
+        .botao:hover {
+          background-color: #e74c51;
+        }
